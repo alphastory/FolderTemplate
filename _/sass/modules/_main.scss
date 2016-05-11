@@ -1,0 +1,31 @@
+section#main {
+	width: 90%;
+	margin: 100px auto 0;;
+
+	p {
+		font-size: 22px;
+		line-height: 28px;
+		font-family: $avenirBook;
+		margin: 20px 0;
+		text-align: center;
+		color: #333333;
+
+		strong {
+			font-weight: bold;
+			text-transform: uppercase;
+			font-family: $avenirBlack;
+		}
+
+		&.noCaps strong {
+			text-transform: none;
+		}
+	}
+
+	hr {
+		width: 25px;
+		border: none;
+		height: 1px;
+		margin: 40px auto;
+		background-color: $blue;
+	}
+}

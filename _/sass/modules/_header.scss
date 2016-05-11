@@ -1,0 +1,41 @@
+header {
+	background-color: $brown;
+	width: 100%;
+	padding: 15px 0 20px;
+	
+	#logo {
+		width: 100%;
+		text-align: center;
+	    max-width: 150px;
+	    margin: 40px auto 0px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	#message {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+
+		h1 {
+			color: $red;
+			font-size: 24px;
+			line-height: 30px;
+			font-family: $avenirBlack;
+			width: 100%;
+			text-align: center;
+			letter-spacing: 1px;
+
+			span {
+				font-style: italic;
+			}
+
+			@include media( $mobile ){
+				font-size: 18px;
+			}
+		}
+	}
+
+}

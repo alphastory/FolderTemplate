@@ -1,0 +1,28 @@
+header #ticker {
+	margin-top: 10px;
+	border: 2px solid $red;
+	padding: 3px;
+	background-color: $brown;
+	display: inline-block;
+	@include media( $mobile ){
+		width: 90%;
+	}
+
+	.inner {
+		background-color: $red;
+
+		h2 {
+			color: $brown;
+			font-size: 58px;
+			font-family: $avenirBlack;
+			text-align: center;
+			padding: 10px 40px;
+			@include media( $tablet ){
+				font-size: 48px;
+			}
+			@include media( $mobile ){
+				font-size: 25px;
+			}
+		}
+	}
+}

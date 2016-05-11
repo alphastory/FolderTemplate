@@ -1,0 +1,34 @@
+{
+  "name": "dweller",
+  "version": "1.0.1",
+  "description": "VIY Website Workspace",
+  "author": "Matt Wagner <matt@thebasement.tv>",
+  "contributors": [
+    {
+      "name": "Dustin Arnold",
+      "email": "dustin@thebasement.tv"
+    }
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebasementdesignandmotion/viy_website"
+  },
+  "bugs": {
+    "url": "https://github.com/thebasementdesignandmotion/viy_website/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-notify": "~0.4.5",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.x.x",
+    "terminal-notifier": "~0.1.2"
+  },
+  "devDependencies": {
+    "grunt-babel": "^6.0.0"
+  }
+}
